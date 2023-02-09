@@ -12,7 +12,7 @@ export default function Header() {
             <Box>
                 <Image src={logo} alt='Panaverse-logo' width={125}></Image>
             </Box>
-            <Flex placeItems='center' color='black' fontSize={15} fontWeight='semibold' gap={10}>
+            <Flex placeItems='center' color='blue' fontSize={15} fontWeight='semibold' gap={10}>
                 <Link href=''>Home</Link>
                 <Link href=''>Syllabus</Link>
                 <Link href=''>Explore</Link>

@@ -1,3 +1,5 @@
+import { readConfigFile } from "typescript"
+
 export default function Head() {
   return (
     <>

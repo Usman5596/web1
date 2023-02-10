@@ -7,23 +7,23 @@ import logo from '../../../public/Logo.png'
 export default function Header() {
   return (
    <Box boxShadow='lg'>
-    {/* <Container > */}
+    <Container maxW={1500}>
         <SimpleGrid templateColumns='repeat(3, 1fr)'>
             <Box>
                 <Image src={logo} alt='Panaverse-logo' width={125}></Image>
             </Box>
-            <Flex placeItems='center' color='black' fontSize={15} fontWeight='semibold' gap={10}>
-                <Link href=''>Home</Link>
-                <Link href=''>Syllabus</Link>
-                <Link href=''>Explore</Link>
-                <Link href=''>About</Link>
-                <Link href=''>Contact</Link>
+            <Flex placeItems='center' color='blue' fontSize={15} fontWeight='semibold' gap={10}>
+                <Link href='/'>Home</Link>
+                <Link href='/'>Syllabus</Link>
+                <Link href='/'>Explore</Link>
+                <Link href='/'>About</Link>
+                <Link href='/'>Contact</Link>
             </Flex>
             <Box>
-                <Button mt='10px' m='5px' colorScheme='teal' float='right'>Apply</Button>
+                <Button mt='10px' m='5px' colorScheme='teal' float='right'>Apply Now</Button>
             </Box>
         </SimpleGrid>
-    {/* </Container> */}
+    </Container>
    </Box>
   )
 }

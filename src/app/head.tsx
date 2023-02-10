@@ -1,4 +1,4 @@
-import { readConfigFile } from "typescript"
+// import { readConfigFile } from "typescript"
 
 export default function Head() {
   return (

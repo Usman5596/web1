@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <Box bg='black'>
       <Container maxW={1500}>
-        <SimpleGrid spacing='20px' py='30px' templateColumns="repeat(4, 1fr)">
+        <SimpleGrid textAlign={{lg:'start', base:'center'}} spacing='20px' py='30px' templateColumns="repeat(4, 1fr)">
           <Box>
             <Heading pb='15px' color='white'>ABOUT US</Heading>
             <Image src={logo} alt="Panaverse-logo" width={125}></Image>

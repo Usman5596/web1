@@ -19,7 +19,7 @@ import logo from "../../../public/Logo.png";
 
 export default function Header() {
   return (
-    <Box boxShadow="lg">
+    <Box boxShadow="lg" bg='#eef4f7'>
       <Container maxW={1500}>
         <SimpleGrid templateColumns={{lg:'repeat(3, 1fr)', base:'repeat(2, 1fr)'}}>
           <Box>
@@ -29,8 +29,8 @@ export default function Header() {
           <Flex 
             placeItems= "center"
             color="black"
-            fontSize={15}
-            fontWeight="semibold"
+            fontSize={20}
+            fontWeight='extrabold'
             gap={10}
           >
             <Link href='/'>Home</Link>

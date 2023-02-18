@@ -1,20 +1,14 @@
-"use client";
+'use client'
 import { Box, Container, Flex, Heading, Text, Image } from "@chakra-ui/react";
-import React from "react";
-import Home from "../Components/Home";
-import Pre from '../../../public/pre.png'
+import React from 'react'
+import Home from '../Components/Home'
 import Instructors from "../Components/Instructors";
-// import Image from "next/image";
-// import logo from '../../../public/logo.png'
 
 export default function page() {
   return (
     <>
-      <Home
-        title="About"
-        src="https://cutewallpaper.org/cdn-cgi/mirage/2af0adefb1b7ebf6af3b94bf8b86378693ec8b55d34af727ac0cbb58dfd044f5/1280/28/business-background-wallpaper-hd/2196618961.jpg"
-      />
-      <Box >
+    <Home title='About' src='https://previews.123rf.com/images/vska/vska1604/vska160400081/55577688-abstract-tech-background-futuristic-interface-vector-illustration-with-many-geometric-shape-.jpg' />
+    <Box >
         <Container maxW={1200}>
           <Flex my='50px' gap='25px' px='15px'>
           <Box flexBasis='50%'>
@@ -31,14 +25,14 @@ export default function page() {
       </Box>
       <Box>
         <Container maxW={1200}>
-          <Flex my='60px' gap='60px' px='15px'>
+          <Flex my='60px' gap='60px' m='auto'>
             <Box flexBasis='50%'>
               <Heading size='2xl'>Panaverse DAO</Heading>
               <Text mt={5}>Panaverse DAO is a community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers. Panaverse DAO is struggling to produce professional metaverse developers from Pakistan for the upcoming Era of Internet</Text>
               <Text mt={5}>President Dr. Arif Alvi has been a renowned professional and has held many important positions in the field of Dentistry. He remained Dean of Orthodontics, College of Physicians and Surgeons of Pakistan, President, Pakistan Dental Association (1997-2001), Pakistan Association of Orthodontists (2005), Asia Pacific Dental Federation (2006-07) and Councilor of the World Dental Federation (2007-2013). Through his sheer hard work in the World Dental Federation, he was able to get the declaration of 20th March as World Oral Health Day. He is also an author of a book, theses, and many articles.</Text>
             </Box>
             <Box flexBasis='50%'>
-              <Image src='/logo.png' alt='Panavers' width={600} height={330} mx='auto' pt='60px' />
+              <Image src='/logo.png' alt='Panavers' width={400} height={300} mx='auto' pt='60px' />
             </Box>
           </Flex>
         </Container>

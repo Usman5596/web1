@@ -11,11 +11,10 @@ import {
   MenuItem,
   MenuList,
   Menu,
+  Image,
 } from "@chakra-ui/react";
-import Image from "next/image";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import React from "react";
-import logo from "../../../public/Logo.png";
 
 export default function Header() {
   return (
@@ -23,7 +22,7 @@ export default function Header() {
       <Container maxW={1500}>
         <SimpleGrid templateColumns={{lg:'repeat(3, 1fr)', base:'repeat(2, 1fr)'}}>
           <Box>
-            <Image src={logo} alt="Panaverse-logo" width={125}></Image>
+            <Image src='/logo.png' alt="Panaverse-logo" width={125}></Image>
           </Box>
           <Box display={{ lg: 'initial', base: 'none'}} mt='30px'>
           <Flex 
@@ -45,7 +44,7 @@ export default function Header() {
               Apply Now
             </Button>
           </Box>
-          <Box display={{lg:'none', base:'initial'}}>
+          <Box display={{lg:'none', base:'initial'}} pt='15px'>
             <Menu>
               <MenuButton float='right'
                 as={IconButton}

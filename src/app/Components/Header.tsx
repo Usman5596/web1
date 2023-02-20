@@ -57,11 +57,11 @@ export default function Header() {
                 variant="outline"
               />
               <MenuList>
-                <MenuItem>Home</MenuItem>
-                <MenuItem>Syllabus</MenuItem>
-                <MenuItem>Explore</MenuItem>
-                <MenuItem>About</MenuItem>
-                <MenuItem>Contact</MenuItem>
+                <Link href='/'><MenuItem>Home</MenuItem></Link>
+                <Link href='/syllabus'><MenuItem>Syllabus</MenuItem></Link>
+                <Link href='/explore'><MenuItem>Explore</MenuItem></Link>
+                <Link href='/about'><MenuItem>About</MenuItem></Link>
+                <Link href='/contact'><MenuItem>Contact</MenuItem></Link>
               </MenuList>
             </Menu>
           </Box>

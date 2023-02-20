@@ -90,7 +90,7 @@ export default function page() {
             </Box>
             <Box flexBasis="50%" m="auto">
               <Image
-                src="/logo.png"
+                src="/pv.png"
                 alt="Panavers"
                 width={400}
                 height={300}

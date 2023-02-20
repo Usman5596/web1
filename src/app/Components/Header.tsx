@@ -23,7 +23,7 @@ export default function Header() {
         <SimpleGrid templateColumns={{lg:'repeat(3, 1fr)', base:'repeat(2, 1fr)'}}>
           <Box>
             <Link href='/'>
-            <Image src='/logo.png' alt="Panaverse-logo" width={125}></Image>
+            <Image src='/dao.png' alt="Panaverse-logo" width={125}></Image>
             </Link>
           </Box>
           <Box display={{ lg: 'initial', base: 'none'}} mt='30px'>

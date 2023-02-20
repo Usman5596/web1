@@ -22,7 +22,9 @@ export default function Header() {
       <Container maxW={1500}>
         <SimpleGrid templateColumns={{lg:'repeat(3, 1fr)', base:'repeat(2, 1fr)'}}>
           <Box>
+            <Link href='/'>
             <Image src='/logo.png' alt="Panaverse-logo" width={125}></Image>
+            </Link>
           </Box>
           <Box display={{ lg: 'initial', base: 'none'}} mt='30px'>
           <Flex 
@@ -40,9 +42,11 @@ export default function Header() {
           </Flex>
           </Box>
           <Box display={{ lg: 'initial', base: 'none'}}>
+            <Link href='https://portal.piaic.org/'>
             <Button mt="15px" colorScheme="teal" float="right">
               Apply Now
             </Button>
+            </Link>
           </Box>
           <Box display={{lg:'none', base:'initial'}} pt='15px'>
             <Menu>

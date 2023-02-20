@@ -11,11 +11,11 @@ export default function page() {
         src="https://i.pinimg.com/originals/4b/59/3d/4b593db4236890321e116e9071f50fa2.jpg"
       />
       <Box textAlign="center">
-        <Container maxW={1300} p="40px">
-          <Heading fontSize="4xl" pb="15px">
+        <Container maxW={1400} p="40px">
+          <Heading textAlign="center" fontSize={{lg:'4xl', base:'3xl'}} pb="15px">
             Course Syllabus
           </Heading>
-          <Text>
+          <Text textAlign="center">
             The first three quarters are shared by all specialties and are
             dedicated to studying Object-Oriented Programming and cutting-edge
             Full-Stack Web 2.0 development. It is going to be a
@@ -26,13 +26,13 @@ export default function page() {
       </Box>
       <Box>
         <Container maxW={1400} p="40px">
-          <Heading textAlign="center" pb='30px' fontSize="4xl">Common in All Specializations</Heading>
+          <Heading textAlign="center" pb='30px' fontSize={{lg:'4xl', base:'3xl'}}>Common in All Specializations</Heading>
           <Text textAlign="center" pb='50px' >Every participant of the program will start by completing the following three core courses:</Text>
-          <Flex>
+          <Flex display={{lg:'flex',base:'grid'}} gap='15px'>
             <Box
               textAlign="center"
               mx="20px"
-              px="80px"
+              px="60px"
               bg="#fdd835"
               borderRadius={"16px"}
               overflow="hidden"
@@ -51,7 +51,7 @@ export default function page() {
             <Box
               textAlign="center"
               mx="20px"
-              px="20px"
+              px="60px"
               bg="#fdd835"
               borderRadius={"16px"}
               overflow="hidden"
@@ -70,7 +70,7 @@ export default function page() {
             <Box
               textAlign="center"
               mx="20px"
-              px="70px"
+              px="60px"
               bg="#fdd835"
               borderRadius={"16px"}
               overflow="hidden"
@@ -90,8 +90,8 @@ export default function page() {
         </Container>
       </Box>
       <Box textAlign="center">
-        <Container maxW={1300} p="40px">
-          <Heading fontSize="4xl" pb="15px">
+        <Container maxW={1400} p="40px">
+          <Heading fontSize={{lg:'4xl', base:'3xl'}} pb="15px">
           Specialized Tracks
           </Heading>
           <Text>
@@ -100,16 +100,16 @@ export default function page() {
         </Container>
       </Box>
       <Box>
-        <Container maxW={1050} p="40px">
-          <Heading textAlign="center" pb='30px' fontSize='4xl'>Web 3.0 (Blockchain) and Metaverse Specialization</Heading>
+        <Container maxW={1400} p="40px">
+          <Heading textAlign="center" pb='30px' fontSize={{lg:'4xl', base:'3xl'}}>Web 3.0 (Blockchain) and Metaverse Specialization</Heading>
           <Text textAlign="center" pb='50px' >This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.
 
 </Text>
-          <Flex>
+          <Flex display={{lg:'flex',base:'grid'}} gap='15px'>
             <Box
               textAlign="center"
               mx="20px"
-              px="80px"
+              px="60px"
               bg="#fdd835"
               borderRadius={"16px"}
               overflow="hidden"
@@ -127,7 +127,7 @@ export default function page() {
             <Box
               textAlign="center"
               mx="20px"
-              px="80px"
+              px="60px"
               bg="#fdd835"
               borderRadius={"16px"}
               overflow="hidden"

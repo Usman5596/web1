@@ -12,7 +12,9 @@ export default function Banner() {
                 <Box flexBasis={{ lg: '50%', base: '0%' }} px={{ lg: '40px', base: '0px' }}>
                     <Heading pb='10px' color='white' fontSize='5xl'>Prepare yourself for the Next Generation of Internet with Panaverse</Heading>
                     <Text pr='110px' pb='10px' fontWeight='bold' fontStyle='normal' color='black'> One Year Panaverse DAO Earn as you Learn Program. Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI), Cloud, Edge, and Ambient Computing/IoT Technologies</Text>
+                    <Link href='/explore'>
                     <Button mt='10px' size='lg' colorScheme='teal'>More Info</Button>
+                    </Link>
                 </Box>
                 <Box mt={{ lg: '-40px', base: '0' }} flexBasis='50%'>
                     <Image src='/logo2.png' alt="Panaverse-logo" width={{ lg: '700', base: '400' }} height={{ lg: '400', base: '300px' }}></Image>
@@ -29,7 +31,9 @@ export default function Banner() {
                 <Box flexBasis='50%' pt={{ lg: '130px', base: '0px' }} px={{ lg: '0', base: '5px' }} pb={{ lg: '0px', base: '10px' }}>
                     <Heading pt='10px'>Program Of Studies</Heading>
                     <Text pr={{lg:'50px',base:"25px"}} pt='10px'>This curriculum is intended for beginners who want to learn software development from the ground up. It is going to be a fifteen-month-long hybrid program that includes both onsite and online classes and is divided into five quarters of 13 weeks each. The emphasis will be on hands-on learning by educating students to produce projects.</Text>
+                    <Link href='/syllabus'>
                     <Button mt='10px' size='lg' colorScheme='teal'>Read More</Button>
+                    </Link>
                 </Box>
             </Flex>
         </Container>

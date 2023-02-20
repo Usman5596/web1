@@ -12,11 +12,11 @@ import {
   export default function Instructors() {
     return (
       <Box>
-        <Container maxW={1500}>
+        <Container maxW={{lg:1500, base:1400}}>
           <Center>
             <Heading pb='40px'> Our Instructors </Heading>
           </Center>
-          <Flex flexDir='row'>
+          <Flex flexDir={{lg:'row', base:'column'}}>
             <Box>
               <Center>
                 <Image borderRadius='full' pb='5px' width={90} height={90} src="/zia.png" />

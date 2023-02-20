@@ -11,7 +11,7 @@ export default function Footer() {
         <SimpleGrid textAlign={{lg: 'start', base:'center'}} spacing='20px' py='30px' templateColumns={{base:'repeat(1, 1fr)', lg:'repeat(4, 1fr)'}}>
           <Box>
             <Heading pb='15px' color='black' fontSize='3xl'>ABOUT US</Heading>
-            <Image src='/logo.png' alt="Panaverse-logo" width={125} m={{base:'auto',lg:'0'}}></Image>
+            <Image src='/dao.png' alt="Panaverse-logo" width={125} m={{base:'auto',lg:'0'}}></Image>
             <Text pt='15px' pr={{lg:'30px',base:'0'}} color='black' fontSize='sm'>
               The Future of the Web is Web 3.0, Metaverse, and Edge Computing.
               Panaverse DAO is a movement to spread these technolgies globally.
